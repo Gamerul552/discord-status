@@ -1,0 +1,7 @@
+If it doesn't work, write:
+
+client.on('ready', () => {
+client.user.setPresence({ activity: { name: YOUR MSG' }, status: 'STATUS' })
+  .then(console.log)
+  .catch(console.error)
+});
