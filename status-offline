@@ -1,0 +1,4 @@
+client.user.setPresence({ activity: { name: 'YOUR MSG' }, status: 'offline' })
+  .then(console.log)
+  .catch(console.error)
+});
